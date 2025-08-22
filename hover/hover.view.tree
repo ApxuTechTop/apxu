@@ -1,0 +1,5 @@
+$apxu_hover $mol_plugin
+	hovered? false
+	event *
+		mouseenter? <=> event_show? null
+		mouseleave? <=> event_hide? null
